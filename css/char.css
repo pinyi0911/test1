@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&family=Noto+Serif+TC:wght@400;500;700;900&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+/* *{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+} */
+
+body{
+    background-color: #967e82;
+}
+
+/* header */
+.navbar-brand img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+
+}
+
+.navbar{
+
+	background-color: #382933;
+    box-shadow: 0px 2px 10px #382933d7;
+    
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+	font-family: 'Noto Serif TC', serif;
+    color:#FFF6EE ;
+    margin-top: 15px;
+} 
+
+
+li a:hover{
+
+	color:#F7D48D !important;
+    
+}
+
+
+.navbar-light .navbar-toggler {
+
+	padding: 3px;
+	margin-left: 30px;
+    
+}
+
+
+.nav-link{
+
+    margin-left: 3px;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.border{
+    position: absolute;
+    width: 85%;
+    margin-top: 40px;
+    margin-left: 95px;
+    margin-right: 100px;
+}
+/* article */
+.content_area{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+article{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.photo{
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+}
+
+.sub_photo{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    opacity: 0;
+}
+
+.sub_photo:hover{
+    opacity: 1;
+}
+
+.name{
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 900;
+    /* line-height: 50px; */
+    color:#382933;
+}
+
+.sub{
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 900;
+    color:#382933;
+    font-size: 14px;
+}
+
+.intro{
+    max-width: 650px;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.85;
+    color: #382933;
+    margin-top: 15px;
+}
+
+.char_box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+.char_box-indiv{
+    position:relative;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    opacity: 0.75;
+}
+
+.char_box-indiv:hover{
+    opacity: 1;
+}
+
+.footer{
+    position: relative;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #382933;
+    color:#F7D48D;
+    font-size: 12px;
+}
+
+.twitter{
+
+    position: absolute;
+    right: 95px;
+    height: 25px;
+    width: 25px;
+}
+.ig{
+
+    position: absolute;
+    right:50px;
+    height: 25px;
+    width: 25px;
+}
